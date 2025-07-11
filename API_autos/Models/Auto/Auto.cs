@@ -22,7 +22,7 @@ namespace CarDealerAPI.Models.Auto
         public string Descripcion { get; set; } = null!;
         public string Motor { get; set; } = null!;
         public int Año_Modelo { get; set; }
-
+        //public string ImagenUrl { get; set; } = null!;
         public int Id_Tipo_Auto { get; set; }
 
         [ForeignKey("Id_Tipo_Auto")]
