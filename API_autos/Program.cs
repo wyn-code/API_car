@@ -5,7 +5,6 @@ using CarDealerAPI.Utils;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.EntityFrameworkCore.SqlServer;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -78,5 +77,3 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
-
-//app.UseStaticFiles();
